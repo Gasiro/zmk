@@ -1,0 +1,14 @@
+identifier: vam05_rev
+name: Vam05 Rev
+arch: arm
+toolchain:
+  - zephyr
+  - gnuarmemb
+  - xtools
+supported:
+  - adc
+  - usb_device
+  - ble
+  - ieee802154
+  - pwm
+  - watchdog
